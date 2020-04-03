@@ -2,12 +2,12 @@
 
 ## Índice
 
-* [1. Preâmbulo](#1-preámbulo)
-* [2. Resumo do projeto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizaje)
-* [4. Considerações gerais](#4-consideraciones-generales)
-* [5. Critérios mínimos de aceitação do projeto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Dicas, conselhos e leituras adicionais](#6-pistas-tips-y-lecturas-complementarias)
+* [1. Preâmbulo](#1-preâmbulo)
+* [2. Resumo do projeto](#2-resumo-do-projeto)
+* [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
+* [4. Considerações gerais](#4-consideracoes-gerais)
+* [5. Critérios mínimos de aceitação do projeto](#5-criterios-de-aceptacao-mínimos-do-projeto)
+* [6. Dicas, conselhos e leituras adicionais](#6-dicas-conselhos-e-leituras-complementares)
 
 ***
 
@@ -27,7 +27,7 @@ O tema é livre. Você deve pensar em quais situações da vida real um cartão 
 
 ## 3. Objetivos de aprendizagem
 
-Trabalhando em pares, vocês aprenderão a criar um aplicativo Web que irá interagir com x usuárix final através do navegador, usando HTML, CSS e JavaScript como tecnologias.
+Você aprenderá a criar um aplicativo Web que irá interagir com x usuárix final através do navegador, usando HTML, CSS e JavaScript como tecnologias.
 
 Simplificando, você aprenderá a:
 
@@ -53,7 +53,6 @@ Simplificando, você aprenderá a:
 
 ## 4. Considerações gerais
 
-* A equipe de treinadores fornecerá a você sugestões de tempo e orientações sobre como trabalhar sozinho ou em equipe. Lembre-se que cada pessoa aprende em um ritmo diferente.
 * O projeto será entregue carregando seu código no GitHub (commit/push) e a interface será implantada usando as páginas do GitHub. Caso desconheça o GitHub, não se preocupe, pois você vai aprender sobre ele ao longo do projeto.
 
 ## 5. Critérios mínimos de aceitação do projeto
@@ -165,32 +164,19 @@ Nesse arquivo, você deverá concluir os testes de unidade das funções `valida
 
 1. Antes de tudo, verifique se você possui um :pencil: editor de texto em boa condição, algo como [Atom](https://atom.io/) ou [Code](https://code.visualstudio.com/).
 2. Para executar os comandos abaixo, você precisará de um :shell: [Shell UNIX](https://github.com/Laboratoria/bootcamp/tree/master/topics/shell), que é um pequeno programa que interpreta linhas de comando (command-line interpreter), além de ter o [git](https://github.com/Laboratoria/bootcamp/tree/master/topics/scm/01-git) instalado. Se você usa um sistema operacional do tipo UNIX, como GNU/Linux ou MacOS, já possui um _shell_ (terminal) instalado por padrão (e provavelmente `git`) também. Se você usa o Windows, pode utilizar a versão completa do [Cmder](https://cmder.net/) que inclui [Git bash](https://git-scm.com/download/win) e, se tiver o Windows 10 ou superior, pode usar o [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
-3. Uma das integrantes da equipe deve fazer um :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/) do repositório da sua coorte, seus _treinadores_ compartilharão um _link_ com você para um repositório e fornecerão acesso de leitura nesse repositório. A outra integrante da equipe deve fazer uma fork **do repositório da sua companheira** e [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) um `remote` para ele.
-4. :arrow_down: [Clone](https://help.github.com/articles/cloning-a-repository/) sua _fork_ no seu computador (cópia local).
-5. 📦 Instale as dependências do projeto com o comando `npm install`. Isso pressupõe que você instalou [Node.js](https://nodejs.org/) (que inclui [npm](https://docs.npmjs.com/)).
-6. Se tudo correu bem, você poderá executar :traffic_light: testes de unidade (unit tests) com o comando `npm test`.
-7. Para visualizar a interface do seu programa no navegador, use o comando `npm start` para iniciar o servidor da web e acesse `http://localhost:5000` no seu navegador.
-8. Comece a programar! :rocket:
+3. :arrow_down: [Clone](https://help.github.com/articles/cloning-a-repository/) sua _fork_ no seu computador (cópia local).
+4. 📦 Instale as dependências do projeto com o comando `npm install`. Isso pressupõe que você instalou [Node.js](https://nodejs.org/) (que inclui [npm](https://docs.npmjs.com/)).
+5. Se tudo correu bem, você poderá executar :traffic_light: testes de unidade (unit tests) com o comando `npm test`.
+6. Para visualizar a interface do seu programa no navegador, use o comando `npm start` para iniciar o servidor da web e acesse `http://localhost:5000` no seu navegador.
+7. Comece a programar! :rocket:
 
 ### Recursos e tópicos relacionados
 
-Aqui está um vídeo de Michelle que mostra o algoritmo de Luhn e mais algumas coisas que você deve saber para realizar este projeto. Ouça com atenção e siga os conselhos dela! :)
+Aqui está um vídeo de Michelle que mostra o algoritmo de Luhn (o vídeo está em espanhol, mas pode ser útil) e mais algumas coisas que você deve saber para realizar este projeto. Ouça com atenção e siga os conselhos dela! :)
 
 [![dicas de cartão de crédito](https://img.youtube.com/vi/f0zL6Ot9y_w/0.jpg)](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
 
 [Link](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
-
-Terminal e shell de UNIX:
-
-[![Lista de reprodução de terminal e shell do UNIX](https://img.youtube.com/vi/GB35Eyb-J4c/0.jpg)](https://www.youtube.com/playlist?list=PLiAEe0-R7u8nGH5TEHfSTeDNIvjZFe_Yd)
-
-[Link](https://www.youtube.com/playlist?list=PLiAEe0-R7u8nGH5TEHfSTeDNIvjZFe_Yd)
-
-Controle de versão e trabalho colaborativo com o Git e o GitHub:
-
-[![Lista de reprodução de controle de versões e trabalho colaborativo ](https://img.youtube.com/vi/F1EoBbvhaqU/0.jpg)](https://www.youtube.com/playlist?list=PLiAEe0-R7u8k9o3PbT3_QdyoBW_RX8rnV)
-
-[Link](https://www.youtube.com/playlist?list=PLiAEe0-R7u8k9o3PbT3_QdyoBW_RX8rnV)
 
 Design da experiência do usuário (User Experience Design):
 
@@ -206,10 +192,3 @@ Desenvolvimento de front-end:
 * Controle de fluxo
 * Testes unitários
 * [Documentação do NPM](https://docs.npmjs.com/)
-
-Organização do trabalho:
-
-* [Metodologias ágeis](https://www.youtube.com/watch?v=v3fLx7VHxGM)
-* [Scrum em menos de 2 minutos](https://www.youtube.com/watch?v=TRcReyRYIMg)
-* [Scrum em detalhe](https://www.youtube.com/watch?v=nOlwF3HRrAY&t=297s). Não esperamos que você faça tudo isso neste projeto. Vamos nos aprofundar gradualmente ao longo do -_bootcamp_.
-* [Blog: como funciona o algoritmo de Luhn](http://www.quobit.mx/asi-funciona-el-algoritmo-de-luhn-para-generar-numeros-de-tarjetas-de-credito.html).
